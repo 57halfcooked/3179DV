@@ -14,7 +14,7 @@
       },
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/57halfcooked/FIT3179/main/VegaLite/2dvbushfire/data/fire_nrt_M6_96619_C.csv"
+          "url": "https://raw.githubusercontent.com/57halfcooked/3179DV/main/2dvbushfire/data/fire_nrt_M6_96619_C.csv"
         },
         "mark": {"type": "circle", "tooltip": {"content": "data"}},
         "encoding": {
@@ -30,9 +30,10 @@
             "field": "acq_time",
             "type": "quantitative",
             "title": "Number of bushfires",
-            "scale": {"scheme": "#e31a1c"}
+            "scale": {"scheme": "reds"}
           }
         }
       }
     ]
   }
+  /*#e31a1c
